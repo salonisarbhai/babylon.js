@@ -8,5 +8,5 @@
 
 ### Preparing a Mesh 
 
-- [What are meshes?](https://github.com/salonisarbhai/Babylon.js/blob/master/meshes.md)
+- [What are meshes?](meshes/meshes.md)
 
