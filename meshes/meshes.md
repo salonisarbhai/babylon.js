@@ -8,5 +8,12 @@
 ###### The newest way to create mesh is using **MeshBuilder** method.
 ###### This is the format of creating any mesh using **MeshBuilder**
 var mesh = BABYLON.MeshBuilder.Create<Mesh>(name, {param1 : val1, param2: val2}, scene);
+Below is the link of how a box is created using MeshBuilder and the output.
+
+
+### Preparing a mesh for a skeleton
+##### A skeleton 
+
+
 
 
