@@ -5,3 +5,7 @@
 ##### There are constructors like:
 ##### - BABYLON.Skeleton = function (name, id, scene)
 ##### - BABYLON.Bone = function (name, skeleton. parentBone, matrix)
+
+### Preparing a Mesh 
+
+-[What are meshes?] (
