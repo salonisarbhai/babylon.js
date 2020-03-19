@@ -10,7 +10,7 @@
 var mesh = BABYLON.MeshBuilder.Create<Mesh>(name, {param1 : val1, param2: val2}, scene);
 ##### Below is the link of how a box is created using MeshBuilder and the output.
 
--[Box](meshes/Screenshot from 2020-03-19 16-38-49.png)
+-[Building a box and controlling its size](meshes/meshes.md)
 
 ### Preparing a mesh for a skeleton
 ##### A skeleton 
