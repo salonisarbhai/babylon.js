@@ -25,6 +25,7 @@
 ##### Skeleton and bones can be loaded from .babylon files. Loading Bones simply create a boned mesh and launches the avatar. In short the loading helps to begin the animation or moving the avatar for the first time.
 
 [Loading Bones](bones.html) 
+[Output Video of Loading Bones](loading_bones.mkv)
 
 ### Cloning Bones:
 ##### 
