@@ -9,4 +9,5 @@
 ### Preparing a Mesh 
 
 - [What are meshes?](meshes/meshes.md)
+- [Bones](bones/bones.md)
 
