@@ -41,3 +41,45 @@
 [Cloning Bones](cloning_bones.html) 
 
 [Output Video of Cloning Bones](cloning_bones.mkv)
+
+------------
+
+### Picking a mesh attached to a skeleton
+##### In picking an object with your mouse the main difficulty is to click on a 3D object whereas your screen is flat 2D display.
+##### In simple words if we have two meshes. One of the meshes is supposed to be the background, and the other is to follow the cursor to mark where on the other mesh you are targeting. 
+##### So there are two solutions is esay. One mesh is called "ground", the other is called "cursor". 
+##### First:
+var ground = new BABYLON.Mesh("ground",scene);
+ground.isPickable = true ; 
+var cursor = new BABYLON.Mesh("cursor", scene);
+cursor.isPickable = false;  
+
+...
+
+var p = scene.pick(event.clientX, event.clientY); // it return only "isPickable" meshes
+...
+
+##### Second:
+var ground = new BABYLON.Mesh("ground",scene);
+var cursor = new BABYLON.Mesh("cursor", scene);
+
+...
+
+var p = scene.pick(event.clientX, event.clientY, function(mesh) {
+    return mesh.name == "ground";  // so only ground will be pickable
+}); 
+...
+
+--------
+
+### Attaching a mesh to a specific bone
+##### We can attach a mesh to a bone (for eg. like attaching a sword in the hand of your character).
+
+sword.attachToBone(skeleton.bones[34], character);
+
+### The screenshot can be seen:
+[Attaching mesh to a Bone](bm.png) 
+
+
+
+
