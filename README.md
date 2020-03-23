@@ -1,4 +1,5 @@
-# Babylon.js
+# Babylon.js: It is to create one of the most powerful, beautiful, and simple Web rendering engines in the world. 
+
 ## Bones and Skeletons
 
 ##### Basically a skeleton (BABYLON.Skeleton) contains a heirarchy of bones (BABYLON.Bone). 
@@ -8,6 +9,6 @@
 
 ### Preparing a Mesh 
 
-- [What are meshes?](meshes/meshes.md)
+- [Meshes](meshes/meshes.md)
 - [Bones](bones/bones.md)
 
